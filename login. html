@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <style>
+    h2 {
+      text-transform: uppercase;
+      text-align: center;
+    }
+    .gmail, .password {
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+    .gmail input, .password input {
+      text-align: center;
+      text-transform: uppercase;
+      margin-left: 40px;
+    }
+    .password input {
+      width: 183px;
+      height: 15px;
+      font-size: 12px;
+    }
+    .all {
+      text-align: center;
+      margin-right: 30px;
+    }
+    .login {
+      height: 35px;
+      width: 290px;
+      text-transform: uppercase;
+      border: 1px solid #ddd;
+      display: inline-block;
+      margin-left: 30px;
+      border-radius: 8%;
+      text-align: center;
+      cursor: pointer;
+      font-size: 20px;
+    }
+    .Login, .Register {
+      height: 35px;
+      width: 140px;
+      margin-left: 5px;
+        border: 1px solid #ddd;
+    }
+    .Login {
+      margin-left: 30px;
+        border: 1px solid #ddd;
+    }
+    p {
+      font-size: 20px;
+      margin-left: 50px;
+      margin-right: 20px;
+    }
+    .G, .f, .wf {
+      width: 50px;
+      height: 50px;
+      font-size: 40px;
+      font-weight: bold;
+      border-radius: 25%;
+      display: inline-block;
+      text-align: center;
+    }
+    .G {
+      background-color: white;
+      color: red;
+      border: 1px solid #ddd;
+      margin-left: 360px;
+      margin-right: 20px;
+      float: left;
+    }
+    .f {
+      color: white;
+      background-color: blue;
+      margin-left: -20px;
+    }
+    .wf {
+      color: blue;
+      background-color: white;
+      border: 1px solid #ddd;
+      margin-left: 10px;
+      border-radius: 30%;
+    }
+    span {
+      font-size: 52.5px;
+    }
+    .sada {
+      height: 50px;
+      width: 50px;
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 25%;
+      float: right;
+      margin-right: 320px;
+    }
+    .lal {
+      height: 20px;
+      width: 30px;
+      background-color: red;
+      margin-top: 15px;
+      border-radius: 20%;
+    }
+    .btn {
+      height: 10px;
+      width: 5px;
+      background-color: white;
+      border-radius: 0px 10px 10px 0px;
+    }
+    h3 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h2>login/register form:</h2>
+  <hr>
+  <div class="gmail">
+    email: <input type="email" placeholder="type your gmail">
+  </div><br>
+  <div class="password">
+    password: <input type="password" placeholder="type your password">
+  </div><br />
+  <div class="all">
+    <button class="login">Login</button><br /><br />
+    <button class="Login">Login</button>
+    <button class="Register">Register</button>
+    <p>or continue with</p>
+    <button class="G">G</button>
+    <button class="f"><span class="bf">f</span></button>
+    <button class="wf"><span class="fw">f</span></button>
+    <div class="sada">
+      <div class="lal">
+        <div class="btn"></div>
+      </div>
+    </div>
+  </div>
+  <h2>Dipak roy</h2>
+  <h3>Thank you Everybody</h3>
+</body>
+</html>
